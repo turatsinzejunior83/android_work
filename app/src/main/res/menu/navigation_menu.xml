@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:title="Chips"
+            android:id="@+id/chips"
+           />
+        <item
+            android:title="Salad"
+            android:id="@+id/salad"
+           />
+        <item
+            android:title="Meat"
+            android:id="@+id/meat"
+          />
+        <item
+            android:title="Meal"
+            android:id="@+id/meal"
+           />
+        <item android:title="fruit">
+         <menu>
+
+             <item
+                 android:title="Apple"
+                 android:id="@+id/apple"
+                 />
+             <item
+                 android:title="Banna"
+                 android:id="@+id/banana"/>
+             <item
+                 android:title="Juice"
+                 android:id="@+id/juice"/>
+
+         </menu>
+
+        </item>
+
+
+
+    </group>
+
+</menu>
